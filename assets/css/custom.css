@@ -1,0 +1,18 @@
+/* assets/css/custom.css */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;800&display=swap');
+
+/* Use Libre Franklin site-wide */
+html {
+  font-family: 'Libre Franklin', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Background and base text size */
+body {
+  background-color: #EBF4F4 !important; /* Ensure it wins against defaults */
+  font-size: 18px;
+}
+
+/* Larger headings */
+h1 { font-size: 2.5rem; font-weight: 800; }
+h2 { font-size: 2rem;   font-weight: 700; }
+h3 { font-size: 1.5rem; font-weight: 600; }
