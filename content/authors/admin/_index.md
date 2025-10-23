@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Alex Johnson
+title: W. Victoria Lee
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Alex # change this after I'm done
+last_name: Johnson # change this after I'm done
 
 # Pronouns (optional)
-pronouns: he/him
+pronouns:
 
 # Status emoji
 status:
-  icon: 🚀
+  icon: 🐈
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,35 +23,34 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: University of Edinburgh
+    url: https://www.ed.ac.uk/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:w.victoria.lee@ed.ac.uk'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
-  - icon: brands/github
-    url: https://github.com/alexjohnsonai
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+  # - icon: brands/x
+  #   url: https://twitter.com/AlexAIResearch
+  # - icon: brands/github
+  #   url: https://github.com/alexjohnsonai
+  # - icon: brands/linkedin
+  #   url: https://www.linkedin.com/in/alexjohnsonai/
+  # - icon: academicons/google-scholar
+  #   url: https://scholar.google.com/citations?user=alexjohnson
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - tbc
+  - tbc
+  
 
 education:
   - area: PhD Computer Science (AI Focus)
@@ -166,4 +165,4 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
