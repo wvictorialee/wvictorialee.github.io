@@ -1,3 +1,27 @@
+/* assets/css/_entry.css - these must remain! */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Load Libre Franklin from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;800&display=swap');
+
+@layer base {
+  /* Use Libre Franklin site‑wide */
+  html { font-family: 'Libre Franklin', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+
+  /* Background and body text size */
+  body { 
+    background-color: #EBF4F4;
+    font-size: 18px; /* body text size */
+  }
+
+  /* Headings scale (tweak to taste) */
+  h1 { @apply text-4xl md:text-5xl font-extrabold; }
+  h2 { @apply text-3xl md:text-4xl font-bold; }
+  h3 { @apply text-2xl md:text-3xl font-semibold; }
+  h4 { @apply text-xl md:text-2xl font-semibold; }
+}
+@layer base {
+  h1 { color: hotpink !important; }
+}

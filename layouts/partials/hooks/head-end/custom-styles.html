@@ -1,0 +1,4 @@
+{{/* Load and process your Tailwind entry CSS */}}
+{{ $css := resources.Get "css/_entry.css" | resources.PostCSS | resources.Minify | resources.Fingerprint "sha512" }}
+<link rel="preload" as="style" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
