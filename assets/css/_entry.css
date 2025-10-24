@@ -24,5 +24,4 @@
   h3 { @apply text-2xl md:text-3xl font-semibold; }
   h4 { @apply text-xl md:text-2xl font-semibold; }
 }
-/* HUBBOB TEST */
-body { outline: 4px solid red !important; }
+

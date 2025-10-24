@@ -3,18 +3,11 @@
 title: W. Victoria Lee
 
 # Name pronunciation (optional)
-name_pronunciation: ''
+# name_pronunciation: ''
 
 # Full name (for SEO)
 first_name: Alex # change this after I'm done
 last_name: Johnson # change this after I'm done
-
-# Pronouns (optional)
-pronouns:
-
-# Status emoji
-# status:
-#   icon: 🐈
 
 # Is this the primary user of the site?
 superuser: true
@@ -47,9 +40,9 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-1825-0097
 
-interests:
-  - tbc
-  - tbc
+# interests:
+#   - tbc
+#   - tbc
   
 
 education:
@@ -149,20 +142,7 @@ awards:
     icon: hero/trophy
     summary: |
       Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
