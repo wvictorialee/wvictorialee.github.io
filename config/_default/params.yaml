@@ -5,7 +5,7 @@
 
 # Appearance
 appearance:
-  mode: system
+  mode: light
   color: amber
 
 # SEO
@@ -35,7 +35,13 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: 'WV Lee'
+      text: 'W. Victoria Lee'
+      # Logo filename in `assets/media/` folder
+      # filename: "logo.png"
+    # Let the user choose between light or dark mode?
+    show_theme_chooser: true
+    # Let the user search from the navigation bar?
+    show_search: true
 
 # Site footer
 footer:
@@ -56,5 +62,7 @@ locale:
 features:
   math:
     enable: false
+  # turn this on for enhanced privacy pack. When the privacy pack is activated, Hugo Blox will request plugins to increase their privacy. 
+  # Currently, the Google Analytics plugin is supported, leading to anonymized visitor IPs.
   privacy_pack:
-    enable: false
+    enable: true

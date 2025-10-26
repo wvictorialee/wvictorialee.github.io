@@ -16,7 +16,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Researcher
+# role: Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -92,37 +92,37 @@ profiles:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python & PyTorch
-        description: ''
-        percent: 95
-        icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking in the Rockies
-        description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
-        percent: 70
-        icon: book-open
+# skills:
+#   - name: Technical Skills
+#     items:
+#       - name: Python & PyTorch
+#         description: ''
+#         percent: 95
+#         icon: code-bracket
+#       - name: Machine Learning
+#         description: ''
+#         percent: 100
+#         icon: chart-bar
+#       - name: Cloud Computing (AWS/GCP)
+#         description: ''
+#         percent: 85
+#         icon: cloud
+#   - name: Hobbies
+#     color: '#eeac02'
+#     color_border: '#f0bf23'
+#     items:
+#       - name: Hiking in the Rockies
+#         description: ''
+#         percent: 80
+#         icon: person-simple-walk
+#       - name: Building Custom PCs
+#         description: ''
+#         percent: 90
+#         icon: cpu-chip
+#       - name: Sci-Fi Reading
+#         description: ''
+#         percent: 70
+#         icon: book-open
 
 # languages:
 #   - name: English

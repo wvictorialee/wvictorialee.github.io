@@ -1,6 +1,6 @@
 ---
-title: Courses
-summary: My courses
+title: Teaching
+summary: Courses I've designed/taught
 type: landing
 
 cascade:
