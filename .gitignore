@@ -75,3 +75,6 @@ Desktop.ini
 
 *.log
 npm-debug.log*
+
+# Hugo modules (vendored)
+_vendor/
