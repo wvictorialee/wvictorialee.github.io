@@ -49,16 +49,18 @@ sections:
   #   design:
   #     view: article-grid
   #     columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
+  ############### unblock the below later
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: ''
+  #     filters:
+  #       folders:
+  #         - publications
+  #       exclude_featured: false
+  #   design:
+  #     view: citation
+  ################ unblock the above later
   # - block: collection
   #   id: talks
   #   content:

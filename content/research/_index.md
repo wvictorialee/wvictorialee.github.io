@@ -12,13 +12,13 @@ sections:
   - block: collection
     content:
       title: Research Projects
-      text: Here are a selection of projects that I have worked on over the years.
+      text: Under Construction # Here are a selection of projects that I have worked on over the years.
       filters:
         folders:
           - research
     design:
       view: article-grid
-      fill_image: false
+      fill_image: true
       columns: 3
       show_date: false
       show_read_time: false
