@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Research Projects
-      text: Under Construction # Here are a selection of projects that I have worked on over the years.
+      text: '' # Here are a selection of projects that I have worked on over the years.
       filters:
         folders:
           - research

@@ -6,7 +6,7 @@
 # Website name
 title: W. Victoria Lee
 # Website URL
-baseURL: 'https://wvictorialee.github.io/'
+baseURL: 'https://wvictorialee.netlify.app/'
 
 ############################
 ## LANGUAGE

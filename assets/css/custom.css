@@ -1,18 +1,152 @@
 /* assets/css/custom.css */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;800&display=swap');
 
-/* Use Libre Franklin site-wide */
+/* Load Source Sans 3 with 300 included */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700;800;900&display=swap');
+
+/* Use Source Sans 3 site‑wide */
 html {
-  font-family: 'Libre Franklin', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Source Sans 3', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
 }
 
-/* Background and base text size */
+/* Default text: lighter (300) */
 body {
-  background-color: #FAF5E0 !important; /* Ensure it wins against defaults */
+  background-color: #FAF5E0;
   font-size: 18px;
 }
 
-/* Larger headings */
-h1 { font-size: 2.5rem; font-weight: 800; }
-h2 { font-size: 2rem;   font-weight: 700; }
-h3 { font-size: 1.5rem; font-weight: 600; }
+/* Make common text containers use 300 even if the theme sets font-normal (400) */
+.prose, .article-style, .article-container, .content {
+  font-weight: 300 !important;
+}
+.prose p, .prose li,
+.article-style p, .article-style li,
+.article-container p, .article-container li,
+.content p, .content li {
+  font-weight: 300 !important;
+}
+
+/* Bold: ensure a clear jump in weight */
+b, strong,
+.prose b, .prose strong,
+.article-style b, .article-style strong,
+.article-container b, .article-container strong,
+.content b, .content strong {
+  font-weight: 700 !important; /* increase to 800 if you prefer */
+  letter-spacing: -0.003em;
+}
+
+/* Dark theme background */
+.dark body,
+:root.dark body {
+  background-color: #0f172a;
+}
+
+/* Headings: slightly wider tracking */
+h1, .prose h1 { font-size: 2.5rem; font-weight: 900; letter-spacing: 0.02em; }
+h2, .prose h2 { font-size: 2rem;   font-weight: 800; letter-spacing: 0.015em; }
+h3, .prose h3 { font-size: 1.5rem; font-weight: 700; letter-spacing: 0.01em; }
+
+/* Optional: a touch more line-height (vertical breathing room) */
+h1, .prose h1 { line-height: 1.2; }
+h2, .prose h2 { line-height: 1.25; }
+h3, .prose h3 { line-height: 1.3; }
+
+/* Navbar/menu link size */
+header nav a,
+nav[aria-label="Main"] a,
+.navbar a,
+.site-nav a,
+.main-menu a {
+  font-size: 1.3rem;     /* increase if you prefer */
+  font-weight: 600;      /* gives clearer emphasis without looking heavy */
+  letter-spacing: 0.01em;
+}
+
+/* Slightly larger on wider screens */
+@media (min-width: 1024px) {
+  header nav a,
+  nav[aria-label="Main"] a,
+  .navbar a,
+  .site-nav a,
+  .main-menu a {
+    font-size: 1.15rem;
+  }
+}
+
+/* Bump menu (nav) link size */
+a.nav-link {
+  font-size: 1.1rem !important;   /* try 1.15rem or 1.2rem if you want bigger */
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+}
+
+/* Also bump the whole nav container so dropdowns/other items inherit */
+header nav,
+.navbar {
+  font-size: 1.1rem !important;
+}
+
+/* Slightly larger on wide screens */
+@media (min-width: 1024px) {
+  a.nav-link,
+  header nav,
+  .navbar {
+    font-size: 1.25rem !important;
+  }
+}
+
+/* Menu: reduce vertical whitespace around links */
+a.nav-link,
+header a.nav-link,
+nav a.nav-link,
+.navbar a.nav-link {
+  /* tighten vertical padding */
+  padding-top: 0.35rem !important;   /* was likely ~0.5rem */
+  padding-bottom: 0.35rem !important;
+  line-height: 1.3 !important;       /* lower line-height reduces “white space” */
+}
+
+/* If padding is on the list items, tidy it too */
+li.nav-item,
+.navbar li {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Footer: make text lighter */
+footer,
+footer p,
+footer li,
+footer a,
+footer small,
+footer .powered-by {
+  font-weight: 300 !important;
+}
+
+/* Cards: make body text lighter (keeps headings as-is) */
+.card,
+.card p,
+.card li,
+.article,
+.article p,
+.article li,
+.article-container,
+.article-container p,
+.article-container li,
+.content .card,
+.home-section .card {
+  font-weight: 300 !important;
+}
+
+/* Lighter weight for any clamped summary in cards/lists */
+.home-section p[class*="line-clamp-"],
+.list p[class*="line-clamp-"] {
+  font-weight: 300 !important;
+}
+
+

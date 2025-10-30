@@ -66,3 +66,4 @@ features:
   # Currently, the Google Analytics plugin is supported, leading to anonymized visitor IPs.
   privacy_pack:
     enable: true
+

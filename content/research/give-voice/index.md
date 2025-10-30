@@ -4,12 +4,16 @@ date: 2025-10-29
 # links: # turn back on and perhaps link to OSF
 #   - type: site
 #     url: https://github.com/scikit-learn/scikit-learn
-reading_time: false
-pager: false
-profile: false
-share: false # surpress the social media
+
+# Hide meta on this page
 show_date: false
-weight: 30
+show_lastmod: false
+show_last_updated: false
+reading_time: false
+share: false
+profile: false
+pager: false
+comments: false
 tags:
   - conservation & adaptation
   - focus group study
@@ -38,6 +42,7 @@ header:
   navbar:
     enable: false
 ---
+
 
 This is the landing page for _Giving Voice to Historic Property Owners_ project. More content will be added. 
 

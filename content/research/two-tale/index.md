@@ -33,6 +33,7 @@ image:
 
 This project aims to understand the perspectives and experiences of occupants/homeowners who are interested in, or are currently undertaking, energy retrofits of their historic properties in Edinburgh. Specifically, this project investigates how issues of heritage conservation, energy efficiency, and usability influence homeowners’ perceptions and retrofit decisions. Here I focus on one specific building element – windows. 
 
-Lessons learned have been collated into a **[Homeowners' Quick Start Guide](https://era.ed.ac.uk/handle/1842/41922)** for wider dissemination to encourage and help more owners to undertake retrofits of their historic properties in Edinburgh.  
+> [!Abstract] Resources
+> Lessons learned have been collated into a **[Homeowners' Quick Start Guide](https://era.ed.ac.uk/handle/1842/41922)** for wider dissemination to encourage and help more owners to undertake retrofits of their historic properties in Edinburgh.  
 
 <!--more-->
