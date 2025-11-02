@@ -6,8 +6,8 @@ title: W. Victoria Lee
 # name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex # change this after I'm done
-last_name: Johnson # change this after I'm done
+first_name: A # change this after I'm done
+last_name: J # change this after I'm done
 
 # Is this the primary user of the site?
 superuser: true
