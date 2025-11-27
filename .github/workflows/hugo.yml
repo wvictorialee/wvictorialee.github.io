@@ -17,6 +17,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    Env:
+      HUGO_PARAMS_noindex: "true"   # GitHub build = noindex
     steps:
       - name: Checkout
         uses: actions/checkout@v4

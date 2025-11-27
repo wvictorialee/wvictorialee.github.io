@@ -33,7 +33,7 @@ footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 disableAliases: true
 outputs:
-  home: [HTML, RSS, headers, redirects, backlinks]
+  home: [HTML, RSS, SITEMAP, ROBOTS, headers, redirects, backlinks]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
